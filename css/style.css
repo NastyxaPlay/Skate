@@ -1,0 +1,242 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: "Roboto";
+}
+
+.section{
+    width: 100%;
+}
+
+
+/* ---------------------section uppersign------------------------------- */
+
+.uppersign{
+    min-width: 1440px;
+    height: 29px;
+    background-color: black;
+}
+
+.sign{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.sign>p{
+    color: white;
+    padding-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 569px;
+    padding-right: 580px;
+}
+
+/* ---------------------section mainmenu------------------------------- */
+
+.mainmenu__logo{
+    height: 66px;
+}
+
+.mainmenu__logo2{
+    margin-top: 14px;
+}
+
+.header__menu{
+    display: flex;
+    height: 66px;
+}
+
+
+.mainmenu__list > li{
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 22px;
+    margin-top: 22px;
+}
+
+.mainmenu__list > li:hover{
+    color: #20f60c;
+    cursor: pointer;
+}
+
+.menu > ul{
+    display: flex;
+}
+
+.mainmenu__buttons{
+    display: flex;
+    height: 66px;
+    margin-right: 20px;
+    margin-left: 70px;
+}
+
+.mainmenu__buttons > div:hover{
+    cursor: pointer;
+}
+
+.mainmenu__buttons > div{
+    margin-top: 20px;
+}
+
+.corz__logo{
+    margin-left: 10px;
+}
+
+.corz__logo2:hover{ /* скачать svg!!*/
+    fill: orange
+}
+
+.profile__logo{
+    margin-left: 5px;
+}
+
+.profile__logo2:hover{
+    fill: orange;
+}
+
+.menu{
+    margin-right: 293px;
+    margin-left: 102px;
+}
+
+.mainmenu__logo{
+    margin-top: 0;
+}
+
+
+/* ---------------------section welcome------------------------------- */
+
+.welcome{
+    height: 810px;
+    background-image: url(../img/block1.png);
+    background-repeat: no-repeat;
+}
+
+.welcome__sign{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 51px;
+    text-align: center;
+    color: #000000;
+    padding-top: 53px;
+}
+
+.welcome__sign2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+    padding-top: 14px;
+}
+
+.welcome__buttons{
+    text-align: center;
+    padding-top: 22px;
+}
+
+.revs{
+    margin-right: 12px;
+}
+
+.welcome__buttons > button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+    background-color: #FF4A32;
+    height: 33px;
+    width: 201px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border-radius: 35px;
+    border: none;
+}
+
+.welcome__buttons > button:hover{
+    background-color: #6c150a;
+    cursor: pointer;
+}
+
+/* ---------------------section boostedrev------------------------------- */
+
+.boostedrev{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    width: 1440px;
+}
+
+.boostedrev > div{
+    height: 580px;
+    padding-top: 223px;
+}
+
+.boostedrev__firstpict{
+    background-image: url(../img/block2_pict1.png);
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    margin-left: 130px;
+}
+
+.boostedrev__secondpict{
+    background-image: url(../img/block2_pict2.png);
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    margin-right: 130px;
+}
+
+.rev__first_sign1, .rev__first_sign2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.rev__second_instock{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 14px;
+}
+
+.git{
+    font-size: 30px;
+    font-style: italic;
+}
