@@ -259,3 +259,12 @@ html, body{
     color: #FFFFFF;
     padding-top: 14px;
 }
+
+/* ---------------------section skatepict------------------------------- */
+
+.skatepict{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    width: 1440px;
+}
