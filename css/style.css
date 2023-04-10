@@ -36,8 +36,9 @@ html, body{
     color: white;
     padding-top: 7px;
     margin-bottom: 7px;
-    padding-left: 569px;
-    padding-right: 580px;
+    margin-right: 580px;
+    margin-left: 569px;
+    width: 291px;
 }
 
 /* ---------------------section mainmenu------------------------------- */
