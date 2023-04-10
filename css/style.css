@@ -267,4 +267,43 @@ html, body{
     display: grid;
     grid-template-columns: repeat(3,33%);
     width: 1440px;
+    height: 449px;
+}
+
+.skatepict__1pict{
+    background-image: url(../img/block3_pict1.png);
+    background-repeat: no-repeat;
+}
+
+.skatepict__2pict{
+    background-image: url(../img/block3_pict2.png);
+    background-repeat: no-repeat;
+}
+
+.skatepict__3pict{
+    background-image: url(../img/block3_pict3.png);
+    background-repeat: no-repeat;
+}
+
+.skate_instock{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 14px;
+}
+
+.skatepict > div > div:first-child{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+    margin-top: 197px;
 }
