@@ -56,6 +56,11 @@ html, body{
     height: 66px;
 }
 
+.mainmenu__list{
+    margin-right: 348px;
+    margin-left: 102px;
+    width: 736px;
+}
 
 .mainmenu__list > li{
     list-style: none;
@@ -66,8 +71,28 @@ html, body{
     line-height: 21px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-left: 22px;
     margin-top: 22px;
+}
+
+.mainmenu__item_1{
+    margin-left: 11px;
+}
+
+.mainmenu__item_2{
+    margin-left: 22px;
+}
+
+.mainmenu__item_3{
+    margin-left: 23px;
+}
+
+.mainmenu__item_4{
+    margin-left: 22px;
+}
+
+.mainmenu__item_5{
+    margin-left: 23px;
+    margin-right: 34px;
 }
 
 .mainmenu__list > li:hover{
@@ -83,7 +108,6 @@ html, body{
     display: flex;
     height: 66px;
     margin-right: 20px;
-    margin-left: 70px;
 }
 
 .mainmenu__buttons > div:hover{
@@ -91,7 +115,7 @@ html, body{
 }
 
 .mainmenu__buttons > div{
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .corz__logo{
@@ -110,13 +134,12 @@ html, body{
     fill: orange;
 }
 
-.menu{
-    margin-right: 293px;
-    margin-left: 102px;
-}
-
 .mainmenu__logo{
     margin-top: 0;
+}
+
+.mainmenu__logo2{
+    margin-left: 11px;
 }
 
 
