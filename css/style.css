@@ -354,3 +354,10 @@ html, body{
 .footer_logo{
     margin-top: 35px;
 }
+
+/* ---------------------section footer_information------------------------------- */
+
+.footer__information{
+    height: 329px;
+    background-color: F7F7F7;
+}
