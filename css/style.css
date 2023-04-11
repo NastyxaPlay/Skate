@@ -361,3 +361,8 @@ html, body{
     height: 329px;
     background-color: F7F7F7;
 }
+
+.information_mainblock{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+}
