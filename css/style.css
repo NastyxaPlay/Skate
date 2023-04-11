@@ -365,4 +365,55 @@ html, body{
 .information_mainblock{
     display: grid;
     grid-template-columns: repeat(3,33%);
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.logo__footer{
+    height: 134px;
+    width: 160px;
+    margin-top: 29px;
+    margin-left: 10px;
+}
+
+.about{
+    margin-left: 20px;
+}
+
+.explore, .about{
+    width: 379px;
+    height: 229px;
+    margin-top: 30px;
+}
+
+.explore, .about > div{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    color: #000000;
+}
+
+.sign_explore{
+    font-size: 20px;
+}
+
+.sign_about{
+    font-size: 19px;
+}
+
+.explore__list{
+    list-style-type: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.about_text{
+    margin-top: 12px;
+    margin-bottom: 19px;
+}
+
+.about_text, .address1,.address2,.address3{
+    font-size: 14px;
 }
