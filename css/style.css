@@ -7,6 +7,7 @@
 html, body{
     height: 100%;
     font-family: "Roboto";
+    /* width: 1440px; */
 }
 
 .section{
@@ -421,6 +422,54 @@ html, body{
 /* ---------------------section terms------------------------------- */
 
 .terms{
+    width: 1200px;
     height: 70px;
     background-color: white;
+    margin-left: 120px;
+}
+
+.footerlast{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+
+.termsInfo{
+    margin-top: 20px;
+    width: 780px;
+    height: 30px;
+    /* margin-right: 68px; */
+}
+
+.termsInfo div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.footerIcons{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 20px;
+    gap: 4px;
+    width: 332px;
+    height: 30px;
+}
+
+.termsText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.termsTextOrange{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FF4A32;
 }
