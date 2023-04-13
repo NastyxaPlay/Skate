@@ -359,13 +359,13 @@ html, body{
 
 .footer__information{
     height: 329px;
-    background-color: F7F7F7;
+    background-color: rgba(247, 247, 247, 1);
 }
 
 .information_mainblock{
     display: grid;
     grid-template-columns: repeat(3,33%);
-    margin-top: 20px;
+    padding-top: 20px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -420,3 +420,7 @@ html, body{
 
 /* ---------------------section terms------------------------------- */
 
+.terms{
+    height: 70px;
+    background-color: white;
+}
