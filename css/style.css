@@ -431,13 +431,12 @@ html, body{
 .footerlast{
     display: grid;
     grid-template-columns: repeat(2,50%);
+    grid-column-gap: 250px
 }
 
 .termsInfo{
     margin-top: 20px;
-    width: 780px;
     height: 30px;
-    /* margin-right: 68px; */
 }
 
 .termsInfo div{
