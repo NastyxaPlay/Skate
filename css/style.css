@@ -213,7 +213,7 @@ html, body{
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(2,50%);
-    width: 1440px;
+    column-gap: 40px;
 }
 
 .boostedrev > div{
@@ -224,20 +224,19 @@ html, body{
 .boostedrev__firstpict{
     background-image: url(../img/block2_pict1.png);
     background-repeat: no-repeat;
-
     text-align: center;
-
     margin-left: 130px;
+    background-position: center;
 }
 
 .boostedrev__secondpict{
     background-image: url(../img/block2_pict2.png);
     background-repeat: no-repeat;
-
     text-align: center;
-
     margin-right: 130px;
+    background-position: center;
 }
+
 
 .rev__first_sign1, .rev__first_sign2{
     font-family: 'Roboto';
@@ -267,23 +266,25 @@ html, body{
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3,33%);
-    width: 1440px;
     height: 449px;
 }
 
 .skatepict__1pict{
     background-image: url(../img/block3_pict1.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .skatepict__2pict{
     background-image: url(../img/block3_pict2.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .skatepict__3pict{
     background-image: url(../img/block3_pict3.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .skate_instock{
@@ -312,12 +313,12 @@ html, body{
 /* ---------------------section go------------------------------- */
 
 .go{
-    width: 1440px;
     height: 308px;
     background-color: black;
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4,25%);
+    justify-items: center;
 }
 
 .go > div{
@@ -422,7 +423,6 @@ html, body{
 /* ---------------------section terms------------------------------- */
 
 .terms{
-    width: 1200px;
     height: 70px;
     background-color: white;
     margin-left: 120px;
