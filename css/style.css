@@ -17,7 +17,6 @@ html, body{
 /* ---------------------section uppersign------------------------------- */
 
 .uppersign{
-    min-width: 1440px;
     height: 29px;
     background-color: black;
     display: flex;
@@ -96,7 +95,7 @@ html, body{
 }
 
 .mainmenu__list > li:hover{
-    color: #20f60c;
+    color: #FF4A32;
     cursor: pointer;
 }
 
@@ -123,7 +122,7 @@ html, body{
 }
 
 .corz__logo2:hover{ /* скачать svg!!*/
-    fill: orange
+    stroke: #FF4A32;
 }
 
 .profile__logo{
@@ -131,7 +130,7 @@ html, body{
 }
 
 .profile__logo2:hover{
-    fill: orange;
+    stroke: #FF4A32;
 }
 
 .mainmenu__logo{
@@ -227,6 +226,12 @@ html, body{
     text-align: center;
     margin-left: 130px;
     background-position: center;
+
+    transition: all 1s;
+}
+
+.boostedrev__firstpict:hover{
+    transform: scale(1.2);
 }
 
 .boostedrev__secondpict{
@@ -235,8 +240,13 @@ html, body{
     text-align: center;
     margin-right: 130px;
     background-position: center;
+
+    transition: all 1s;
 }
 
+.boostedrev__secondpict:hover{
+    transform: scale(1.2);
+}
 
 .rev__first_sign1, .rev__first_sign2{
     font-family: 'Roboto';
@@ -273,18 +283,36 @@ html, body{
     background-image: url(../img/block3_pict1.png);
     background-repeat: no-repeat;
     background-size: cover;
+
+    transition: all 1s;
+}
+
+.skatepict__1pict:hover{
+    transform: scale(1.1);
 }
 
 .skatepict__2pict{
     background-image: url(../img/block3_pict2.png);
     background-repeat: no-repeat;
     background-size: cover;
+
+    transition: all 1s;
+}
+
+.skatepict__2pict:hover{
+    transform: scale(1.1);
 }
 
 .skatepict__3pict{
     background-image: url(../img/block3_pict3.png);
     background-repeat: no-repeat;
     background-size: cover;
+
+    transition: all 1s;
+}
+
+.skatepict__3pict:hover{
+    transform: scale(1.1);
 }
 
 .skate_instock{
@@ -397,6 +425,15 @@ html, body{
     color: #000000;
 }
 
+.explore__list li > a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.explore__list li > a:hover{
+    color: #FF4A32;
+}
+
 .sign_explore{
     font-size: 20px;
 }
@@ -439,6 +476,15 @@ html, body{
     height: 30px;
 }
 
+.infoterms div>a{
+    text-decoration: none;
+    color: #FF4A32;
+}
+
+.infoterms div>a:hover{
+    color: #6c150a
+}
+
 .termsInfo div{
     display: flex;
     align-items: center;
@@ -471,4 +517,11 @@ html, body{
     font-size: 12px;
     line-height: 19px;
     color: #FF4A32;
+}
+
+/* 1368px и меньше! */
+@media (max-width:1368px){
+    .footerlast{
+        grid-column-gap: 100px;
+    }
 }
