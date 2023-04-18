@@ -728,8 +728,8 @@ html, body{
         grid-template-columns: repeat(1,100%);
         grid-template-rows: repeat(2,50px);
         justify-items: center;
-        margin-top: 30px;
-        padding-bottom: 50px;
+        margin-top: 20px;
+        padding-bottom: 25px;
     }
 
     .icon>img{
@@ -766,6 +766,89 @@ html, body{
 }
 
 @media(max-width:550px){
+    .infoterms>div{
+        font-size: 12px;
+    }
+
+    .icon>img{
+        width: 40px;
+        height: 25px;
+    }
+
+    .footerIcons{
+        margin-left: 20px;
+    }
+
+    .skatepict{
+        grid-template-rows: repeat(3,350px);
+        justify-items: center;
+        margin-bottom: 75px;
+        height: 1000px;
+    }
+    
+    .skatepict__1pict,.skatepict__2pict, .skatepict__3pict{
+        width: 350px;
+        background-size: contain;
+    }
+
+    .skatepict div>div:first-child{
+        margin-top: 150px;
+    }
+
+    .boostedrev>div{
+        height: 379px;
+        padding-top: 120px;
+    }
+}
+
+@media(max-width:470px){
+    .welcome>div{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .boards{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .go div{
+        width: 300px;
+    }
+
+    .go div>div:nth-child(3){
+        font-size: 15px;
+    }
+}
+
+@media(max-width:435px){
+    .welcome{
+        background-position: 47% 100%;
+    }
+
+    .explore{
+        margin-left: 13px;
+    }
+
+    .explore, .about{
+        align-items: center;
+    }
+
+    .about_text{
+        text-align: center;
+        width: 270px;
+    }
+
+    .explore__list > li{
+        text-align: center;
+    }
+
+    .footer__information{
+        height: 1100px;
+    }
+}
+
+@media(max-width:380px){
     
 }
 
