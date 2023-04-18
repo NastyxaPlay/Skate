@@ -20,6 +20,9 @@
             <div class="mainmenu__logo">
                 <img src="img/mainmenu_logo.png" alt="" class="mainmenu__logo2">
             </div>
+            <button class="navbar-toggler" id="navbar-toggler" type="button">
+                <img src="img//bars.svg" width="30px">
+            </button>
             <div class="menu">
                 <ul class="mainmenu__list">
                     <li class="mainmenu__item_1">Electric Skateboards</li>
@@ -166,5 +169,15 @@
             </div>
         </section>
     </footer>
+
+    <script type="text/javascript">
+        const btn = document.getElementById("navbar-toggler");
+        const menus = document.querySelectorAll(".menu");
+        btn.addEventListener('click', () => {
+            for(let el of menus){
+                el.classList.toggle("show");
+            }
+        })
+    </script>
 </body>
 </html>
