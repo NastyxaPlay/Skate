@@ -188,6 +188,11 @@ html, body{
     padding-top: 22px;
 }
 
+.welcome__buttons button>a{
+    color: white;
+    text-decoration: none;
+}
+
 .revs{
     margin-right: 12px;
 }
