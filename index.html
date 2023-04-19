@@ -173,9 +173,13 @@
     <script type="text/javascript">
         const btn = document.getElementById("navbar-toggler");
         const menus = document.querySelectorAll(".menu");
+        const menusList = document.querySelectorAll(".mainmenu__list");
         btn.addEventListener('click', () => {
             for(let el of menus){
                 el.classList.toggle("show");
+            }
+            for(let el of menusList){
+                el.classList.toggle("menulist");
             }
         })
     </script>

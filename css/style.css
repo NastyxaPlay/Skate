@@ -50,6 +50,7 @@ html, body{
 .header__menu{
     display: flex;
     height: auto;
+    flex-wrap: wrap;
 }
 
 .mainmenu__logo{
@@ -62,7 +63,7 @@ html, body{
 }
 
 .mainmenu__list{
-    width: 736px;
+    width: auto;
 }
 
 .mainmenu__list > li{
@@ -110,6 +111,7 @@ html, body{
 
 .menu > ul{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .mainmenu__buttons{
@@ -534,6 +536,12 @@ html, body{
     color: #FF4A32;
 }
 
+@media(max-width:2100px){
+    .welcome{
+        background-position: 100% 90%;
+    }
+}
+
 /* 1368px и меньше! */
 @media (max-width:1368px){
     .footerlast{
@@ -937,10 +945,22 @@ html, body{
     }
 }
 
-@media(max-width:396px){
+@media(max-width:334px){
+    .header__menu{
+        justify-content: space-around
+    }
 
+    .mainmenu__buttons{
+        margin-left: 40px;
+    }
 }
 
 .show{
     display: block;
+    order: 3;
+    margin-bottom: 10px;
+}
+
+.menulist{
+    justify-content: center;
 }
