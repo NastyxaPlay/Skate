@@ -199,7 +199,8 @@ html, body{
     margin-right: 12px;
 }
 
-.welcome__buttons > button{
+
+.welcome__buttons a> button{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -210,14 +211,11 @@ html, body{
     background-color: #FF4A32;
     height: 33px;
     width: 201px;
-    left: 0%;
-    right: 0%;
-    top: 0px;
     border-radius: 35px;
     border: none;
 }
 
-.welcome__buttons > button:hover{
+.welcome__buttons a> button:hover{
     background-color: #6c150a;
     cursor: pointer;
 }
