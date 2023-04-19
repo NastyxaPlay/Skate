@@ -796,7 +796,7 @@ html, body{
     }
 
     .footerIcons{
-        margin-left: 20px;
+        margin-left: -1px;
     }
 
     .skatepict{
@@ -838,6 +838,20 @@ html, body{
 
     .go div>div:nth-child(3){
         font-size: 15px;
+    }
+
+    .infoterms>div{
+        font-size: 10px;
+    }
+
+    .icon a>img{
+        width: 25px;
+        height: 15px;
+    }
+
+    .footerIcons{
+        margin-left: 15px;
+        width: 200px;
     }
 }
 
@@ -921,6 +935,10 @@ html, body{
     .go div {
         width: 200px;
     }
+}
+
+@media(max-width:396px){
+
 }
 
 .show{
