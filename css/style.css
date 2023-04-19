@@ -542,6 +542,11 @@ html, body{
 }
 
 @media(max-width:1200px){
+
+    .welcome{
+        background-position: 60% 100%;
+    }
+
     .boostedrev{
         margin-top: 50px;
         display: grid;
@@ -590,7 +595,7 @@ html, body{
     }
 }
 
-@media(max-width:1050px){
+@media(max-width:1062px){
 
     .welcome{
         background-position: 50% 100%;
@@ -758,6 +763,10 @@ html, body{
 }
 
 @media(max-width:635px){
+
+    .welcome{
+        background-position: 40% 100%;
+    }
 
     .boostedrev{
         grid-template-rows: repeat(2,350px);
