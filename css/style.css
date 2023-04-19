@@ -848,8 +848,59 @@ html, body{
     }
 }
 
-@media(max-width:380px){
+@media(max-width:410px){
+
+    .boostedrev{
+        grid-template-rows: repeat(2,220px);
+        justify-items: center;
+        margin-bottom: 50px;
+    }
+
+    .boostedrev__firstpict,.boostedrev__secondpict{
+        width: 280px;
+        background-size: contain;
+        padding-top: 30px;
+    }
+
+    .boostedrev>div{
+        height: 230px;
+        padding-top: 60px;
+    }
+
+    .rev__first_sign1, .rev__first_sign2{
+        font-size: 21px;
+    }
+
+    .rev__second_instock{
+        font-size: 17px;
+        padding-top: 5px;
+    }
+
+
+    .skatepict{
+        grid-template-rows: repeat(3,250px);
+        justify-items: center;
+        margin-bottom: 75px;
+        height: 750px;
+    }
     
+    .skatepict__1pict,.skatepict__2pict, .skatepict__3pict{
+        width: 250px;
+        background-size: contain;
+    }
+
+    .skatepict div>div:first-child{
+        margin-top: 90px;
+        font-size: 21px;
+    }
+
+    .skatepict div>div:nth-child(2){
+        font-size: 15px;
+    }
+
+    .go div {
+        width: 200px;
+    }
 }
 
 .show{
